@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#fb6a70"
+tools:context=".signup">
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/round2"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:hint="email"
+        android:padding="8dp"
+        android:textColorHint="#fb6a70"
+
+
+        ></EditText>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:hint="password"
+        android:textColorHint="#fb6a70"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="32dp"
+        android:background="@drawable/round2"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+
+
+        ></EditText>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:hint="contact number"
+        android:textColorHint="#fb6a70"
+        android:padding="5dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="32dp"
+        android:background="@drawable/round2"
+        android:drawableLeft="@drawable/ic_perm_contact_calendar_black_24dp"
+
+
+        ></EditText>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:hint="username"
+        android:textColorHint="#fb6a70"
+        android:padding="5dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="32dp"
+        android:background="@drawable/round2"
+        android:drawableLeft="@drawable/ic_person_black_24dp"></EditText>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/roundcorner"
+        android:hint="Sign Up"
+
+        android:padding="5dp"
+        android:textAlignment="center"
+
+
+        android:textColorHint="#fb6a70"
+        android:textStyle="bold"></EditText>
+
+</RelativeLayout>

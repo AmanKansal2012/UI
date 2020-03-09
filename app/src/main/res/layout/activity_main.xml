@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fb5e64"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/scrift"></ImageView>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/roundcorner"
+        android:onClick="signup"
+        android:text="Sign Up"
+        android:textColor="#fb6a70"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="440dp"
+        android:text="Already have an account?"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"></TextView>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/roundcorner"
+        android:onClick="signin"
+        android:text="Log In"
+        android:textColor="#fb6a70"></Button>
+
+
+</RelativeLayout>
+
+
